@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-color-barra{
+    background-color: #F5F5F5;
+}
+.font-navbar{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.font-navbar-movil-logo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.font-navbar-movil{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: justify;
+    
+}
+.font-text-welcome{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    
+    
+}
+
+
+
+@layer components{
+    .box-table{
+        @apply border border-gray-500 p-4 rounded-xl
+    }
+}
